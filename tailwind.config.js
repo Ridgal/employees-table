@@ -1,10 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/react-tailwindcss-datepicker/dist/index.esm.{js,ts}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
       "2xl": { max: "1536px" },
@@ -15,5 +11,5 @@ export default {
     },
     extend: {},
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [],
 };

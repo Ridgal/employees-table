@@ -4,9 +4,9 @@ import { useAppDispatch } from "../hooks";
 import { getEmployees } from "../redux/slices/actions";
 import { EmployeesFilter } from "../components/EmployeesFilter/EmployeesFilter";
 import { Link, Route, Routes } from "react-router-dom";
-import "./App.css";
 import { EmployeesEdit } from "../components/EmployeesEdit/EmployeesEdit";
 import { EmployeesAdd } from "../components/EmployeesAdd/EmployeesAdd";
+import "./App.css";
 
 const App = () => {
   const dispatch = useAppDispatch();
