@@ -51,7 +51,7 @@ const EmployeesAdd = () => {
               name="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="w-full text-gray-700 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+              className="w-full text-gray-700 px-3 py-2 border bg-white border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
               placeholder="Имя"
               required
             />
@@ -69,7 +69,7 @@ const EmployeesAdd = () => {
               name="phone"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-              className="w-full text-gray-700 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+              className="w-full bg-white text-gray-700 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
               placeholder="Phone"
               required
             />
@@ -84,7 +84,7 @@ const EmployeesAdd = () => {
                 name="birthday"
                 value={birthday}
                 onChange={(e) => setBirthday(e.target.value)}
-                className="text-gray-800"
+                className="text-gray-800 bg-gray-400"
                 required
               />
             </div>

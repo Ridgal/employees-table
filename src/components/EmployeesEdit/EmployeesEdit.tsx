@@ -97,7 +97,7 @@ const EmployeesEdit: FC = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full text-gray-700 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+              className="w-full bg-white text-gray-700 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
               placeholder="youremail@example.com"
               required
             />
@@ -115,7 +115,7 @@ const EmployeesEdit: FC = () => {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className="w-full text-gray-700 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+              className="w-full bg-white text-gray-700 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
               placeholder="Phone"
               required
             />
@@ -128,7 +128,7 @@ const EmployeesEdit: FC = () => {
               <input
                 type="date"
                 name="birthday"
-                className="text-gray-800"
+                className="text-gray-800 bg-gray-400"
                 value={birthday} // Устанавливаем выбранную дату
                 onChange={handleDateChange} // Обработчик изменения даты
                 required
