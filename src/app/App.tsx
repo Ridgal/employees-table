@@ -20,7 +20,7 @@ const App = () => {
       <div className="">
         <div className="flex justify-between items-center">
           <Link to="/">
-            <h1 className="flex items-center text-2xl font-extrabold text-gray-700 my-4 xl:text-base md:text-xs mr-4">
+            <h1 className="flex items-center text-2xl font-extrabold text-gray-700 my-4 xl:text-base md:text-xs mr-2">
               Employees
             </h1>
           </Link>

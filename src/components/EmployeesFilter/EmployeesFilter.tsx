@@ -27,7 +27,7 @@ const EmployeesFilter: FC = () => {
   };
 
   return (
-    <div className="flex justify-center items-center gap-8">
+    <div className="flex justify-center items-center gap-8 md:gap-2">
       <label
         htmlFor="employees"
         className="flex items-center gap-4 md:gap-1 text-sm lg:text-xs font-medium text-gray-900"
