@@ -30,9 +30,9 @@ const EmployeesFilter: FC = () => {
     <div className="flex justify-center items-center gap-8">
       <label
         htmlFor="employees"
-        className="flex items-center gap-4 text-sm lg:text-xs font-medium text-gray-900"
+        className="flex items-center gap-4 md:gap-1 text-sm lg:text-xs font-medium text-gray-900"
       >
-        Должность
+        <span className="md:hidden">Должность</span>
         <select
           id="employees"
           value={role}

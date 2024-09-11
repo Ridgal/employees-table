@@ -20,15 +20,12 @@ const App = () => {
       <div className="">
         <div className="flex justify-between items-center">
           <Link to="/">
-            <h1 className="flex items-center text-2xl font-extrabold text-gray-700 my-4">
+            <h1 className="flex items-center text-2xl font-extrabold text-gray-700 my-4 xl:text-base md:text-xs mr-4">
               Employees
-              <span className="bg-blue-300 text-blue-800 text-xl font-semibold me-2 px-2.5 py-0.5 rounded ms-2">
-                PRO
-              </span>
             </h1>
           </Link>
 
-          <div className="flex items-center gap-10">
+          <div className="flex items-center gap-10 md:gap-2">
             <EmployeesFilter />
             <Link
               to="/add-employee"
